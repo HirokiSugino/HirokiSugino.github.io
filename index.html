@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -7,7 +7,12 @@
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+    <style>
+      .jumbotron { background:url(images/room.jpg) center no-repeat; background-size: cover;}
+      .head1 {color:black;}
+    </style>
+
+  </head>
     <title>HirokiSugino</title>
   </head>
   <body>
@@ -25,11 +30,11 @@
           <a class="nav-link" href="Make.html">Make</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="Daily.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Daily report
+          <a class="nav-link dropdown-toggle" href="Milestone.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Milestone
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="Dayly2020.html">2020</a>
+            <a class="dropdown-item" href="milestone2020.html">2020</a>
             <div class="dropdown-divider"></div>
           </div>
         </li>
@@ -43,8 +48,22 @@
       </form>
     </div>
   </nav>
-  <h1>Welcome to Hiroki's Pages!</h1>
+  <!--　▼ jumbotron　 -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="head1">Welcome to Hiroki's Pages!</h1>
+    </div>
+  </div>
+  <!--　▲ jumbotron　 -->
+  <div class="container">
+    外部リンクとか作ったものとか今年の目標とか適当に書いていこう。
+    <h2 id="external-links">External Links</h2>
+		<ul>
+		<li><a href="https://github.com/HirokiSugino">GitHub</a></li>
+		</ul>
+  </div>
   
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
